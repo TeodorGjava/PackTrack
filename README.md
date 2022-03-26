@@ -2,14 +2,14 @@
 Desktop warehouse-pack-tracking app with embedded h2 database   
 This App is a simple solution for buisnesses selling stock in own multiple packs and they need to keep record for their current location, knowing exact number of available packs in the Warehouse and for each client the exact number of currently borrowed packs making Warehouse managing easier and faster.
 
-![main](https://user-images.githubusercontent.com/90547780/160249626-74cf0927-f37c-472f-aa25-db385cdc67d5.PNG)
+<img src="https://user-images.githubusercontent.com/90547780/160249626-74cf0927-f37c-472f-aa25-db385cdc67d5.PNG)"width="250" height="250">
 # Adding records
 Here the user has options to set Date manually if its past date, or let Timestamp() option of the Database autocomplete current date.
 Also user may choose number of packs their sending, and enter the number of warehouse paper.
 When sending a pack or group of packs, user should pick a status: Y or X , Y- Available in Warehouse and X- Sent by Truck to client.
 Buttons for adding a new record/s, clearing the current input and updating existing pack status and location.
 
-![client](https://user-images.githubusercontent.com/90547780/160249662-96b18962-cec2-468a-8ede-3ef4f1b68762.PNG)
+<img src="https://user-images.githubusercontent.com/90547780/160249662-96b18962-cec2-468a-8ede-3ef4f1b68762.PNG)"width="250" height="250">
 # TableView-embedded H2 Database
 Database TableView records with option to apply search filter.
 Export to XLS and PDF formats with option to export only currently searched records.
